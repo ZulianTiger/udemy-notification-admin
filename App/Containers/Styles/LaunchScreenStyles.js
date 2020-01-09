@@ -2,17 +2,9 @@ import { StyleSheet } from 'react-native'
 import { Metrics, ApplicationStyles } from '../../Themes/'
 
 export default StyleSheet.create({
-  ...ApplicationStyles.screen,
-  container: {
-    paddingBottom: Metrics.baseMargin
+  Container: {
+    backgroundColor: "#2b2d35",
+    width: "100%",
+    height: "100%",
   },
-  logo: {
-    marginTop: Metrics.doubleSection,
-    height: Metrics.images.logo,
-    width: Metrics.images.logo,
-    resizeMode: 'contain'
-  },
-  centered: {
-    alignItems: 'center'
-  }
 })
